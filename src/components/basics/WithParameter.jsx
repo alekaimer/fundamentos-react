@@ -1,7 +1,7 @@
 import React from 'react'
 
 export default function WithParameter(props){
-  console.log(props)
+  // console.log(props)
   const status = props.nota >= 6 ? `Aprovado` : `Reprovado` ;
   return (
     <div>
