@@ -11,7 +11,7 @@ export default _ =>
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
-      <Card titulo="#04 - Aleatório">
+      <Card titulo="#04 - Aleatório" color="#080">
         <Aleatorio min={8} max={10} />
       </Card>
 
