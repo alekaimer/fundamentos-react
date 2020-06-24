@@ -3,8 +3,8 @@ import React from 'react'
 
 export default (props) => {
   const cardStyle = {
-    'background-color': props.color || 'transparent',
-    'border-color': props.color || '#FFF'
+    'backgroundColor': props.color || 'transparent',
+    'borderColor': props.color || '#FFF'
   }
   return (
     <div className="Card" style={cardStyle} >
