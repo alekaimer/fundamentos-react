@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react'
 
+import Students from './components/loops/Students';
 import Family from './components/basics/Family';
 import FamilyMember from './components/basics/FamilyMember';
 import Aleatorio from './components/basics/Aleatorio'
@@ -13,6 +14,10 @@ export default _ =>
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+
+      <Card titulo="#06 - Lista" color="">
+        <Students></Students>
+      </Card>
 
       <Card titulo="#05 - Componente com filho" color="#039">
         <Family lastName="Kaimer">
