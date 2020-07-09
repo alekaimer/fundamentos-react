@@ -1,6 +1,8 @@
 import './App.css'
 import React from 'react'
 
+import IndirectDad from './components/communication/IndirectDad';
+import DirectDad from './components/communication/DirectDad';
 import Students from './components/loops/Students';
 import Family from './components/basics/Family';
 import FamilyMember from './components/basics/FamilyMember';
@@ -15,6 +17,10 @@ export default _ =>
     <h1>Fundamentos React</h1>
     <div className="Cards">
 
+      <Card titulo="#07 - Communication" color="#500">
+        <DirectDad></DirectDad>
+      </Card>
+
       <Card titulo="#06 - Lista" color="">
         <Students></Students>
       </Card>
@@ -22,7 +28,9 @@ export default _ =>
       <Card titulo="#05 - Componente com filho" color="#039">
         <Family lastName="Kaimer">
           <FamilyMember firstName="Alexandre"></FamilyMember>
+          <FamilyMember firstName="Paulo"></FamilyMember>
           <FamilyMember firstName="Marcia"></FamilyMember>
+          <FamilyMember firstName="Thiagão"></FamilyMember>
         </Family>
       </Card>
 
