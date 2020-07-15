@@ -1,11 +1,13 @@
 
-import React from 'react'
+import React, { useState } from 'react'
 
 export default props => {
 
+  const [value, setValue] = useState(`initial`)
+
   return (
     <div>
-      Input
+      <input value={value}/>
     </div>
   )
 }
