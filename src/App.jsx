@@ -17,7 +17,11 @@ export default _ =>
     <h1>Fundamentos React</h1>
     <div className="Cards">
 
-      <Card titulo="#07 - Communication" color="#500">
+      <Card titulo="#10 - Indirect communication" color="#836438">
+        <IndirectDad></IndirectDad>
+      </Card>
+
+      <Card titulo="#09 - Direct communication" color="#500">
         <DirectDad></DirectDad>
       </Card>
 
