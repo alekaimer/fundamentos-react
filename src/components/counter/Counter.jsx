@@ -11,7 +11,7 @@ export default class Counter extends React.Component {
   // }
 
   state = {
-    number: this.props.initialNumber
+    number: this.props.initialNumber || 0,
   }
 
   inc = () => {
