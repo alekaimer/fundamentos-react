@@ -2,17 +2,17 @@ import React from 'react'
 
 export default class Counter extends React.Component {
 
-  constructor(props){
-    super(props)
+  // constructor(props){
+  //   super(props)
 
-    this.state = {
-      number: props.initialNumber
-    }
-  }
-
-  // state = {
-  //   number: this.props.initialNumber
+  //   this.state = {
+  //     number: props.initialNumber
+  //   }
   // }
+
+  state = {
+    number: this.props.initialNumber
+  }
 
   render() {
     return (
