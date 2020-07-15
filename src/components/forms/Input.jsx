@@ -5,7 +5,7 @@ export default props => {
   const [value, setValue] = useState(`initial`)
   function changeState(event){
     setValue(event.target.value)
-    console.log(event.target.value)
+    // console.log(event.target.value)
   }
   
   return (
