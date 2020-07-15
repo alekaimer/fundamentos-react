@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react'
 
+import Input from './components/forms/Input';
 import IndirectDad from './components/communication/IndirectDad';
 import DirectDad from './components/communication/DirectDad';
 import Students from './components/loops/Students';
@@ -16,6 +17,10 @@ export default _ =>
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+
+      <Card titulo="#11 - Controlled Component (Input)" color="">
+        <Input></Input>
+      </Card>
 
       <Card titulo="#10 - Indirect communication" color="#836438">
         <IndirectDad></IndirectDad>
