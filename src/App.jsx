@@ -20,7 +20,7 @@ export default _ =>
     <div className="Cards">
 
       <Card titulo="#13 - Counter (Class based)" color="">
-        <Counter initialNumber = {17}></Counter>
+        <Counter initialNumber = {37}></Counter>
       </Card>
 
       <Card titulo="#11 - Controlled Component (Input)" color="">
