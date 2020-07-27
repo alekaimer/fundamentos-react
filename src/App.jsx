@@ -1,6 +1,7 @@
 import './App.css'
 import React from 'react'
 
+import Lotery from './components/lotery/Lotery';
 import Counter from './components/counter/Counter';
 import Input from './components/forms/Input';
 import IndirectDad from './components/communication/IndirectDad';
@@ -18,6 +19,9 @@ export default _ =>
   <div className="App">
     <h1>Fundamentos React</h1>
     <div className="Cards">
+      <Card titulo="#14 - Lotery" color="">
+        <Lotery></Lotery>
+      </Card>
 
       <Card titulo="#13 - Counter (Class based)" color="">
         <Counter initialNumber = {37}></Counter>
