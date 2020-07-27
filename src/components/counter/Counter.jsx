@@ -12,17 +12,24 @@ export default class Counter extends React.Component {
 
   state = {
     number: this.props.initialNumber || 0,
+    pass: this.props.initialPass || 3,
   }
 
   inc = () => {
     this.setState({
-      number: this.state.number + 1
+      number: this.state.number + this.state.pass
     })
   }
 
   dec = () => {
     this.setState({
-      number: this.state.number - 1
+      number: this.state.number - this.state.pass
+    })
+  }
+
+  setPass = (event) => {
+    this.setState({
+      pass: +event.target.value, // this + change string for the integer
     })
   }
 
@@ -31,6 +38,10 @@ export default class Counter extends React.Component {
       <div>
         <h2>Counter</h2>
         <p>Initial value: {this.state.number}</p>
+        <div>
+          <label htmlFor="passInput"></label>
+          <input id="passInput" type="number" value={this.state.pass} onChange={this.setPass}/>
+        </div>
         <button onClick={this.inc}>+</button>
         <button onClick={this.dec}>-</button>
       </div>
