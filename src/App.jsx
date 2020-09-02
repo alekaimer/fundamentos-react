@@ -20,7 +20,7 @@ export default _ =>
     <h1>Fundamentos React</h1>
     <div className="Cards">
       <Card titulo="#14 - Lotery" color="">
-        <Lotery></Lotery>
+        <Lotery qtt={6}></Lotery>
       </Card>
 
       <Card titulo="#13 - Counter (Class based)" color="">

@@ -1,0 +1,14 @@
+.Mega h3 {
+  max-width: 220px;
+  margin: 20px auto;
+}
+.Mega label {
+  margin-right: 10px;
+}
+.Mega input {
+  font-size: 1.4rem;
+  width: 50px;
+}
+.Mega button {
+  margin-top: 20px;
+}
